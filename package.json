@@ -1,0 +1,43 @@
+{
+  "name": "@vectorplease/mcp",
+  "version": "0.0.0",
+  "description": "MCP server for Vector, Please: convert bitmaps into sticker-ready SVGs from any MCP client.",
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vectorplease/mcp.git"
+  },
+  "packageManager": "pnpm@12.8.1",
+  "engines": {
+    "node": ">=22"
+  },
+  "bin": {
+    "vectorplease-mcp": "./dist/cli.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/cli.ts src/index.ts --format esm --clean",
+    "lint": "eslint .",
+    "typecheck": "tsc",
+    "test": "vitest run",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "leak-guard": "tsx scripts/leak-guard.ts",
+    "changeset": "changeset"
+  },
+  "devDependencies": {
+    "@changesets/cli": "3.0.3",
+    "@types/node": "^24.19.0",
+    "eslint": "10.11.0",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "3.9.9",
+    "tsup": "8.5.1",
+    "tsx": "^4.23.15",
+    "typescript": "6.0.3",
+    "typescript-eslint": "8.71.0",
+    "vitest": "5.0.2"
+  }
+}
