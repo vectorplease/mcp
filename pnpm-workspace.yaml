@@ -1,3 +1,5 @@
 # Install scripts: true runs them, false skips them. Anything unlisted fails the install.
 allowBuilds:
   esbuild: true
+  # Git dependency built by its prepare script until the SDK is on npm.
+  '@vectorplease/sdk@https://codeload.github.com/vectorplease/sdk-js/tar.gz/9621f2851a344e14c1b8818452768f9864e917fc': true

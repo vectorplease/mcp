@@ -39,5 +39,10 @@
     "typescript": "6.0.3",
     "typescript-eslint": "8.71.0",
     "vitest": "5.0.2"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.31.0",
+    "@vectorplease/sdk": "github:vectorplease/sdk-js#9621f2851a344e14c1b8818452768f9864e917fc",
+    "zod": "4.6.5"
   }
 }
