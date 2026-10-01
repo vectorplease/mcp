@@ -1,4 +1,5 @@
 {
+  "//": "exactOptionalPropertyTypes is off: the MCP SDK's transport types are not compatible with it.",
   "compilerOptions": {
     "target": "ES2023",
     "lib": ["ES2023"],
@@ -6,7 +7,6 @@
     "moduleResolution": "Bundler",
     "strict": true,
     "noUncheckedIndexedAccess": true,
-    "exactOptionalPropertyTypes": true,
     "noImplicitOverride": true,
     "verbatimModuleSyntax": true,
     "isolatedModules": true,
