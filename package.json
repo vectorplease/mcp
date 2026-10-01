@@ -1,6 +1,6 @@
 {
   "name": "@vectorplease/mcp",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "MCP server for Vector, Please: convert bitmaps into sticker-ready SVGs from any MCP client.",
   "license": "MIT",
   "type": "module",
